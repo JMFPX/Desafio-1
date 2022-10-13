@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap");
+/* font-family: 'Poppins', sans-serif */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--body-bg-color);
+}
+.imgdesafio {
+  background-image: url(../img/sobre.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  min-width: 230px;
+  min-height: 230px;
+  margin: 1em;
+  border: 3px solid var(--purple);
+  justify-content: center;
+  align-items: center;
+  outline: 50%;
+}
+article p {
+  display: flex;
+  font-family: "poppins", sans-serif;
+  font-weight: 300px;
+  justify-content: center;
+  align-items: center;
+  color: var(--purple);
+}
+.card {
+  display: flex;
+  border: 2px solid var(--purple);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+  margin: 15px 0 15px 0;
+  border-radius: 5px;
+}
+.card a {
+  text-decoration: none;
+}
+/* Footer */
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  background-color: var(--body-bg-color);
+  gap: 20px;
+}
